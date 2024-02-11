@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Function Safer v2")]
+[assembly: AssemblyTitle("FunctionSafer.Legacy")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Studio 41 Games")]
-[assembly: AssemblyProduct("Function Safer v2")]
+[assembly: AssemblyProduct("FunctionSafer.Legacy")]
 [assembly: AssemblyCopyright("Copyright © Studio 41 Games 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

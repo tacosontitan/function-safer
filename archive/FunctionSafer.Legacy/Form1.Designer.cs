@@ -448,7 +448,7 @@
             this.MinimumSize = new System.Drawing.Size(713, 611);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Function Safer v2";
+            this.Text = "FunctionSafer.Legacy";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ShowThanks);
             this.Load += new System.EventHandler(this.ApplicationStart);
             this.functionInfoContainer.ResumeLayout(false);
