@@ -5,6 +5,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionSafer.Legacy", "arc
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "archive", "archive", "{5F4A83AA-E1E9-42B3-BB3D-47672CEAEEA0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{31151736-A4DE-4401-A5F3-6E44D5153DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionSafer.Core", "src\FunctionSafer.Core\FunctionSafer.Core.csproj", "{B39E3F7C-BD65-47AC-B873-CE7C50F48535}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6D227879-C464-4BAE-8509-8E7EA09290F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionSafer.Tests", "test\FunctionSafer.Tests\FunctionSafer.Tests.csproj", "{D6277BE1-84D6-4E28-94B8-001A70B98C9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +21,21 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{794F9130-423D-45DB-B530-53B45E973CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{794F9130-423D-45DB-B530-53B45E973CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39E3F7C-BD65-47AC-B873-CE7C50F48535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39E3F7C-BD65-47AC-B873-CE7C50F48535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39E3F7C-BD65-47AC-B873-CE7C50F48535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39E3F7C-BD65-47AC-B873-CE7C50F48535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6277BE1-84D6-4E28-94B8-001A70B98C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6277BE1-84D6-4E28-94B8-001A70B98C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6277BE1-84D6-4E28-94B8-001A70B98C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6277BE1-84D6-4E28-94B8-001A70B98C9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{794F9130-423D-45DB-B530-53B45E973CAE} = {5F4A83AA-E1E9-42B3-BB3D-47672CEAEEA0}
+		{B39E3F7C-BD65-47AC-B873-CE7C50F48535} = {31151736-A4DE-4401-A5F3-6E44D5153DBF}
+		{D6277BE1-84D6-4E28-94B8-001A70B98C9F} = {6D227879-C464-4BAE-8509-8E7EA09290F6}
 	EndGlobalSection
 EndGlobal
