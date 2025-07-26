@@ -78,6 +78,6 @@ public sealed class Function
     public override string ToString()
     {
         var instructions = string.Join(Environment.NewLine, Instructions);
-        return $"{Name}{Environment.NewLine}{instructionsString}";
+        return $"{Name}{Environment.NewLine}{instructions}";
     }
 }
